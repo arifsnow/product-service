@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 import lombok.RequiredArgsConstructor;
 import java.util.List;
 
-import com.example.productservice.repository.ProductRepository;
+import com.example.productservice.repository.*;
 import com.example.productservice.model.*;
 
 @RestController

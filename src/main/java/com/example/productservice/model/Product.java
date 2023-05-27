@@ -18,8 +18,8 @@ import lombok.NoArgsConstructor;
 @Entity
 public class Product {
   @Id
-  @GeneratedValue(generator = "UUID")
-  @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
+  @GeneratedValue(generator = "uuid")
+  @GenericGenerator(name = "uuid", strategy = "uuid2")
   @Column(updatable = false, nullable = false)
   private String id;
   private String name;

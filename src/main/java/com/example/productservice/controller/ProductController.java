@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import lombok.RequiredArgsConstructor;
@@ -16,7 +15,6 @@ import com.example.productservice.repository.*;
 import com.example.productservice.model.*;
 
 @RestController
-@EnableAutoConfiguration
 @RequestMapping("/api/product")
 @RequiredArgsConstructor
 @Component
